@@ -33,9 +33,9 @@
             <div class="hidden md:flex md:items-center md:w-auto w-full order-3 md:order-1" id="menu">
                 <nav>
                     <ul class="md:flex items-center justify-between text-base text-gray-700 pt-4 md:pt-0">
-                        <li><p class="inline-block no-underline hover:text-black cursor-pointer py-2 px-4 font-bold">Accueil</p></li>
+                        <li><a class="inline-block no-underline hover:text-black hover:underline py-2 px-4" href="index.html">Accueil</a></li>
                         <li><a class="inline-block no-underline hover:text-black hover:underline py-2 px-4" href="about.html">A propos</a></li>
-                        <li><a class="inline-block no-underline hover:text-black hover:underline py-2 px-4" href="essence.html">Essences de bois</a></li>
+                        <li><p class="inline-block no-underline hover:text-black cursor-pointer py-2 px-4 active font-bold">Essences de bois</p></li>
                         <li><a class="inline-block no-underline hover:text-black hover:underline py-2 px-4" href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
@@ -72,151 +72,19 @@
         </div>
     </nav>
 
-    <div class="carousel relative container mx-auto" style="max-width:1600px;">
-        <div class="carousel-inner relative overflow-hidden w-full">
-            <!--Slide 1-->
-            <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
-            <div class="carousel-item absolute opacity-0">
-                <div class="block h-full w-full mx-auto flex pt-6 md:pt-0 md:items-center bg-cover bg-bottom" style="background-image: url('assets/img/ustensile-1.jpg');">
-                    <div class="container mx-auto">
-                        <div class="flex flex-col w-full lg:w-1/2 md:ml-16 items-center md:items-start px-6 tracking-wide">
-                            <p class="text-black text-2xl my-4">Bienvenue sur notre site!</p>
-                            <p class="text-xl inline-block text-white no-underline border-b border-white leading-relaxed"></p>
-                        </div>
-                    </div>
+    <section class="w-full mx-auto bg-nordic-gray-light flex pt-12 md:pt-0 md:items-center bg-cover bg-bottom" style="max-width:1600px; height: 32rem; background-image: url('assets/img/ustensile-3.jpg');">
 
-                </div>
+        <div class="container mx-auto">
+
+            <div class="flex flex-col w-full lg:w-1/2 justify-center items-start  px-6 tracking-wide">
+                <h1 class="text-black text-2xl my-4">Informations sur quelque essence de bois</h1>
+                <p class="text-xl inline-block no-underline text-gray-100 border-b border-gray-100 leading-relaxed" >a propos</p>
+
             </div>
-            <label for="carousel-7" class="prev control-1 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-gray-900 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
-            <label for="carousel-2" class="next control-1 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-gray-900 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
-
-            <!--Slide 2-->
-            <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
-            <div class="carousel-item absolute opacity-0 bg-cover bg-bottom">
-                <div class="block h-full w-full mx-auto flex pt-6 md:pt-0 md:items-center bg-cover bg-bottom" style="background-image: url('assets/img/ustensile-2.jpg');">
-
-                    <div class="container mx-auto">
-                        <div class="flex flex-col w-full lg:w-1/2 md:ml-16 items-center md:items-start px-6 tracking-wide">
-                            <p class="text-black text-2xl my-4">Nous </p>
-                            <p class="text-xl inline-block text-white no-underline border-b border-white leading-relaxed">Maintenant</p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <label for="carousel-1" class="prev control-2 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-gray-900  leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
-            <label for="carousel-3" class="next control-2 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-gray-900  leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
-
-            <!--Slide 3-->
-            <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
-            <div class="carousel-item absolute opacity-0">
-                <div class="block h-full w-full mx-auto flex pt-6 md:pt-0 md:items-center bg-cover bg-bottom" style="background-image: url('assets/img/ustensile-3.jpg');">
-
-                    <div class="container mx-auto">
-                        <div class="flex flex-col w-full lg:w-1/2 md:ml-16 items-center md:items-start px-6 tracking-wide">
-                            <p class="text-black text-2xl my-4">Brown and blue hardbound book</p>
-                            <a class="text-xl inline-block text-white no-underline border-b border-white leading-relaxed hover:text-black hover:border-black" href="#">view product</a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <label for="carousel-2" class="prev control-3 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-gray-900  leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
-            <label for="carousel-4" class="next control-3 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-gray-900  leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
-            
-            <!--Slide 4-->
-            <input class="carousel-open" type="radio" id="carousel-4" name="carousel" aria-hidden="true" hidden="">
-            <div class="carousel-item absolute opacity-0">
-                <div class="block h-full w-full mx-auto flex pt-6 md:pt-0 md:items-center bg-cover bg-center" style="background-image: url('assets/img/ustensile-4.jpg');">
-
-                    <div class="container mx-auto">
-                        <div class="flex flex-col w-full lg:w-1/2 md:ml-16 items-center md:items-start px-6 tracking-wide">
-                            <p class="text-black text-2xl my-4">Brown and blue hardbound book</p>
-                            <a class="text-xl inline-block text-white no-underline border-b border-white leading-relaxed hover:text-black hover:border-black" href="#">view product</a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <label for="carousel-3" class="prev control-4 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-gray-900  leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
-            <label for="carousel-5" class="next control-4 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-gray-900  leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
-            
-            <!--Slide 5-->
-            <input class="carousel-open" type="radio" id="carousel-5" name="carousel" aria-hidden="true" hidden="">
-            <div class="carousel-item absolute opacity-0">
-                <div class="block h-full w-full mx-auto flex pt-6 md:pt-0 md:items-center bg-cover bg-bottom" style="background-image: url('assets/img/ustensile-5.jpg');">
-
-                    <div class="container mx-auto">
-                        <div class="flex flex-col w-full lg:w-1/2 md:ml-16 items-center md:items-start px-6 tracking-wide">
-                            <p class="text-black text-2xl my-4">Brown and blue hardbound book</p>
-                            <a class="text-xl inline-block text-white no-underline border-b border-white leading-relaxed hover:text-black hover:border-black" href="#">view product</a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <label for="carousel-4" class="prev control-5 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-gray-900  leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
-            <label for="carousel-6" class="next control-5 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-gray-900  leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
-            
-            <!--Slide 6-->
-            <input class="carousel-open" type="radio" id="carousel-6" name="carousel" aria-hidden="true" hidden="">
-            <div class="carousel-item absolute opacity-0">
-                <div class="block h-full w-full mx-auto flex pt-6 md:pt-0 md:items-center bg-cover bg-center" style="background-image: url('assets/img/ustensile-6.jpg');">
-                    <div class="container mx-auto">
-                        <div class="flex flex-col w-full lg:w-1/2 md:ml-16 items-center md:items-start px-6 tracking-wide">
-                            <p class="text-black text-2xl my-4">Brown and blue hardbound book</p>
-                            <a class="text-xl inline-block text-white no-underline border-b border-white leading-relaxed hover:text-black hover:border-black" href="#">view product</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <label for="carousel-5" class="prev control-6 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-gray-900  leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
-            <label for="carousel-7" class="next control-6 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-gray-900  leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
-            
-            <!--Slide 7-->
-            <input class="carousel-open" type="radio" id="carousel-7" name="carousel" aria-hidden="true" hidden="">
-            <div class="carousel-item absolute opacity-0">
-                <div class="block h-full w-full mx-auto flex pt-6 md:pt-0 md:items-center bg-cover bg-bottom" style="background-image: url('assets/img/ustensile-7.jpg');">
-
-                    <div class="container mx-auto">
-                        <div class="flex flex-col w-full lg:w-1/2 md:ml-16 items-center md:items-start px-6 tracking-wide">
-                            <p class="text-black text-2xl my-4">Brown and blue hardbound book</p>
-                            <a class="text-xl inline-block text-white no-underline border-b border-white leading-relaxed hover:text-black hover:border-black" href="#">view product</a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <label for="carousel-6" class="prev control-7 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-gray-900  leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
-            <label for="carousel-1" class="next control-7 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-gray-900  leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
-
-            <!-- Add additional indicators for each slide-->
-            <ol class="carousel-indicators">
-                <li class="inline-block mr-3">
-                    <label for="carousel-1" class="carousel-bullet cursor-pointer block text-4xl text-gray-400 hover:text-gray-900">•</label>
-                </li>
-                <li class="inline-block mr-3">
-                    <label for="carousel-2" class="carousel-bullet cursor-pointer block text-4xl text-gray-400 hover:text-gray-900">•</label>
-                </li>
-                <li class="inline-block mr-3">
-                    <label for="carousel-3" class="carousel-bullet cursor-pointer block text-4xl text-gray-400 hover:text-gray-900">•</label>
-                </li>
-                <li class="inline-block mr-3">
-                    <label for="carousel-4" class="carousel-bullet cursor-pointer block text-4xl text-gray-400 hover:text-gray-900">•</label>
-                </li>
-                <li class="inline-block mr-3">
-                    <label for="carousel-5" class="carousel-bullet cursor-pointer block text-4xl text-gray-400 hover:text-gray-900">•</label>
-                </li>
-                <li class="inline-block mr-3">
-                    <label for="carousel-6" class="carousel-bullet cursor-pointer block text-4xl text-gray-400 hover:text-gray-900">•</label>
-                </li>
-                <li class="inline-block mr-3">
-                    <label for="carousel-7" class="carousel-bullet cursor-pointer block text-4xl text-gray-400 hover:text-gray-900">•</label>
-                </li>
-            </ol>
 
         </div>
-    </div>
+
+    </section>
 
     <!--	 
 
